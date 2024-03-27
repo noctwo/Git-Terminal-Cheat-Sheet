@@ -4,26 +4,51 @@
     padding: 0;
     font-family: "PT Mono", monospace;
     font-size: 1rem;
-    background-color: #393939;
     color: #fff;
 }
 
-caption{
-    text-align: left;
+body{
+    background: linear-gradient(rgb(157, 200, 239), rgb(77, 5, 71)) 
 }
 
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+caption{
+    text-align: left;
+    margin: 3em 0 1em 0;
+    padding: 0 0 0 1em;
+    font-size: 1.5rem;
+}
+
+table{
+    margin: 0 auto;
+    max-width: 40vw;
+    min-width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 2em;
+}
+
+
 td{
-    width: 30vw;
-    padding: 15px 25px 15px 0;
-    border-bottom: 1px solid #696969;
+    width: 20vw;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+tr:hover{
+    background-color: rgb(157, 200, 239);
 }
 
 td:first-child{
-    color: orange;
+    color: rgb(77, 5, 71);
     font-weight: bold;
 }
 
 td:nth-child(2){
-    color: cyan;
+    color: #fff;
     font-size: 0.8rem;
 }
