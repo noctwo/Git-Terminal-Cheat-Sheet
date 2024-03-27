@@ -8,7 +8,8 @@
 }
 
 body{
-    background: linear-gradient(rgb(157, 200, 239), rgb(77, 5, 71)) 
+    
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
 }
 
 
@@ -27,7 +28,7 @@ table{
     margin: 0 auto;
     max-width: 40vw;
     min-width: 600px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #393939;
     border-radius: 20px;
     padding: 2em;
 }
@@ -36,19 +37,28 @@ table{
 td{
     width: 20vw;
     padding: 1em;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 tr:hover{
-    background-color: rgb(157, 200, 239);
+    background-color: rgba(255, 255, 255, 0.3);
+    td{
+        color: #00EAE8;
+    }
 }
 
 td:first-child{
-    color: rgb(77, 5, 71);
+    color: #FFC75F;
     font-weight: bold;
+    border-radius: 5px 0 0 5px;
 }
 
 td:nth-child(2){
     color: #fff;
     font-size: 0.8rem;
+    border-radius: 0 5px 5px 0;
+}
+
+.git-sheet{
+    margin-bottom: 10em;
 }
