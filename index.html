@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Git-Terminal-Cheat-Sheet</title>
+</head>
+<body>
+    <h1>Git-Terminal-Cheat-Sheet</h1>
+    <section class="terminal-sheet">
+        <article>
+            <table>
+                <caption>Terminal</caption>
+                <tbody>
+                <tr>
+                <td>cd [path]</td>
+                <td>change current directory to the specified one</td>
+                </tr>
+                <tr>
+                <td>cd ~</td>
+                <td>go back to home from folder</td>
+                </tr>
+                <tr>
+                <td>cd -</td>
+                <td>go back to last folder</td>
+                </tr>
+                <tr>
+                <td>ls</td>
+                <td>list contents of current directory</td>
+                </tr>
+                <tr>
+                <td>ls -lh</td>
+                <td>list contents of directory in human-friendly format</td>
+                </tr>
+                <tr>
+                <td>cp [origin] [destination]</td>
+                <td>copies the given file wherever you want to</td>
+                </tr>
+                <tr>
+                <td>mv [origin] [destination]</td>
+                <td>moves or renames the given file</td>
+                </tr>
+                <tr>
+                <td>pwd</td>
+                <td>get path of the directory you`re currently in</td>
+                </tr>
+                <tr>
+                <td>mkdir</td>
+                <td>create a folder > make directory</td>
+                </tr>
+                <tr>
+                <td>mkdir -p [name]</td>
+                <td>create a folder and all its parents, if needed</td>
+                </tr>
+                <tr>
+                <td>touch [name]</td>
+                <td>creates a file with the given name</td>
+                </tr>
+                <tr>
+                <td>file [name]</td>
+                <td>reports the file type</td>
+                </tr>
+                <tr>
+                <td>rm [file]</td>
+                <td>removes given file</td>
+                </tr>
+                <tr>
+                <td>rm -rf [file]</td>
+                <td>removes a folder and all of its contents</td>
+                </tr>
+                <tr>
+                <td>cat [file]</td>
+                <td>prints a files contents</td>
+                </tr>
+                <tr>
+                <td>nano [file]</td>
+                <td>opens the nano file editor to edit a file</td>
+                </tr>
+                <tr>
+                <td>head [file]</td>
+                <td>prints the first few lines of a given file</td>
+                </tr>
+                <tr>
+                <td>tail [file]</td>
+                <td>prints the last few lines of a given file</td>
+                </tr>
+                </tbody>
+                </table>
+                <!-- DivTable.com -->
+        </article>
+    </section>
+    <section class="git-sheet">
+        <article>
+            <table>
+                <caption>Git</caption>
+                <tbody>
+                <tr>
+                <td>git init</td>
+                <td>initialise repository</td>
+                </tr>
+                <tr>
+                <td>git add *</td>
+                <td>marks all files as "ready to commit"</td>
+                </tr>
+                <tr>
+                <td>git commit -m"[message]"</td>
+                <td>adds message to changed files, marks them as "ready to push"</td>
+                </tr>
+                <tr>
+                <td>git push origin [branch]</td>
+                <td>uploads changes to given branch</td>
+                </tr>
+                <tr>
+                <td>git pull</td>
+                <td>"pull down" changes to your local repo</td>
+                </tr>
+                <tr>
+                <td>git status</td>
+                <td>shows tracked / untracked files</td>
+                </tr>
+                <tr>
+                <td>git remote add origin [remote URL]</td>
+                <td>connects remote repo with your local repo</td>
+                </tr>
+                <tr>
+                <td>git clone [remote URL]</td>
+                <td>clones a remote repo to your local machine</td>
+                </tr>
+                <tr>
+                <td>git diff</td>
+                <td>shows made changes</td>
+                </tr>
+                <tr>
+                <td>git log--online --decorate --graph --all</td>
+                <td>shows a graph of all made changes</td>
+                </tr>
+                </tbody>
+                </table>
+        </article>
+    </section>
+</body>
+</html>
